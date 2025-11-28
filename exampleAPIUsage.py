@@ -18,5 +18,4 @@ data = res.json()
 with open('player_data.json', 'w') as f:
     json.dump(data, f, indent=2)
 
-print("Data saved to player_data.json")
-print(json.dumps(data, indent=2))
+print(data["tag"])

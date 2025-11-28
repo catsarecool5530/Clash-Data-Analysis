@@ -2,11 +2,11 @@
   "tag": "#JJJUR0YUU",
   "name": "Catlover",
   "expLevel": 31,
-  "trophies": 7274,
-  "bestTrophies": 7274,
-  "wins": 582,
+  "trophies": 7303,
+  "bestTrophies": 7303,
+  "wins": 583,
   "losses": 383,
-  "battleCount": 965,
+  "battleCount": 966,
   "threeCrownWins": 179,
   "challengeCardsWon": 3,
   "challengeMaxWins": 1,
@@ -25,8 +25,7 @@
   },
   "arena": {
     "id": 54000016,
-    "name": "Dragon Spa",
-    "rawName": "Arena_L5"
+    "name": "Dragon Spa"
   },
   "badges": [
     {
@@ -43,7 +42,7 @@
       "name": "BattleWins",
       "level": 4,
       "maxLevel": 8,
-      "progress": 582,
+      "progress": 583,
       "target": 1000,
       "iconUrls": {
         "large": "https://api-assets.clashroyale.com/playerbadges/512/jM1LK131aF9pZ9PROP2rGWSdthvNTEN3GxK7LdIVtr0.png"
@@ -591,7 +590,7 @@
       "maxLevel": 16,
       "maxEvolutionLevel": 1,
       "rarity": "common",
-      "count": 1890,
+      "count": 1990,
       "elixirCost": 5,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/TvJsuu2S4yhyk1jVYUAQwdKOnW4U77KuWWOTPOWnwfI.png",
@@ -1907,7 +1906,7 @@
       "level": 1,
       "maxLevel": 11,
       "rarity": "epic",
-      "count": 18,
+      "count": 58,
       "elixirCost": 3,
       "iconUrls": {
         "medium": "https://api-assets.clashroyale.com/cards/300/QJB-QK1QJHdw4hjpAwVSyZBozc2ZWAR9pQ-SMUyKaT0.png"
@@ -2211,12 +2210,14 @@
     }
   ],
   "currentFavouriteCard": {
-    "name": "Hog Rider",
-    "id": 26000021,
+    "name": "Musketeer",
+    "id": 26000014,
     "maxLevel": 14,
+    "maxEvolutionLevel": 1,
     "elixirCost": 4,
     "iconUrls": {
-      "medium": "https://api-assets.clashroyale.com/cards/300/Ubu0oUl8tZkusnkZf8Xv9Vno5IO29Y-jbZ4fhoNJ5oc.png"
+      "medium": "https://api-assets.clashroyale.com/cards/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png",
+      "evolutionMedium": "https://api-assets.clashroyale.com/cardevolutions/300/Tex1C48UTq9FKtAX-3tzG0FJmc9jzncUZG3bb5Vf-Ds.png"
     },
     "rarity": "rare"
   },
@@ -2242,8 +2243,7 @@
     "": {
       "arena": {
         "id": 168000050,
-        "name": "Bronze I",
-        "rawName": "AutoChessArena1_2025_Oct"
+        "name": "Bronze I"
       },
       "trophies": 0,
       "bestTrophies": 0
@@ -2251,8 +2251,7 @@
     "AutoChess_2025_Dec": {
       "arena": {
         "id": 168000084,
-        "name": "Bronze I",
-        "rawName": "AutoChessArena1_2025_Dec"
+        "name": "Bronze I"
       },
       "trophies": 0,
       "bestTrophies": 0
@@ -2260,8 +2259,7 @@
     "seasonal-trophy-road-202511": {
       "arena": {
         "id": 168000065,
-        "name": "Seasonal Arena 1",
-        "rawName": "SeasonalArenas_202511_Arena1"
+        "name": "Seasonal Arena 1"
       },
       "trophies": 10000,
       "bestTrophies": 0
