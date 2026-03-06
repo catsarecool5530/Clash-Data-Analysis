@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 .env
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.log

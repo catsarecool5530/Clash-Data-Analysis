@@ -22,3 +22,6 @@ summary(winners)
 summary(losers)
 t.test(winners, losers)
 wilcox.test(winners, losers, paired = FALSE)
+
+length(unique(curData$RedID))
+length(unique(curData$BlueID))

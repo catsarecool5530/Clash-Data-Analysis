@@ -5,6 +5,7 @@ import pandas
 from dotenv import load_dotenv
 load_dotenv()
 seenNames = set(); # setty set set!
+seenOpponents = set();
 
 allyID = []
 enemyID = []
@@ -19,19 +20,24 @@ headers = {
 blueElixirLeaked = []
 redElixirLeaked = []
 while len(allyID) < 10000:
+    print(len(allyID))
     curID = stack.pop()
+    if curID in seenNames:
+        continue
+    seenNames.add(curID)
     res = requests.get(URL + curID + "/battlelog", headers=headers)
     data = res.json();
     for game in data:
-        if game["opponent"][0]["tag"] in seenNames:
+        if game["opponent"][0]["tag"] in seenOpponents:
             continue
+        seenOpponents.add(game["opponent"][0]["tag"])
         blueElixirLeaked.append(game["team"][0]["elixirLeaked"])
         redElixirLeaked.append(game["opponent"][0]["elixirLeaked"])
         allyID.append(curID)
         oppID = game["opponent"][0]["tag"]
         oppID = oppID[1:]
         enemyID.append(oppID)
-        seenNames.add(oppID)
+        
         stack.append(oppID)
         if game["team"][0]["crowns"] > game["opponent"][0]["crowns"]:
             win.append(1)
